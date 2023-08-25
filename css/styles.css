@@ -1,0 +1,82 @@
+/* Reset de estilos para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d33625;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    border-radius: #ddd;
+    background-color: black;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.produtos {
+    padding: 2em;
+    text-align: center;
+}
+
+.produto {
+    border: 1px solid #ffffff;
+    padding: 1em;
+    margin: 1em;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.produto img {
+    max-width: 100%;
+}
+
+.preco {
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+.btn{
+    display: block;
+    margin:  10px auto;
+    cursor: pointer;
+    color: aliceblue;
+    border-radius: 15%;
+    padding: 1%;
+    background-color: #333;
+}
+
+.btn:hover{
+    transition: 0.3s;
+    color: #333;
+    background-color: aliceblue;
+}
+
+/* Estilos adicionais podem ser adicionados conforme necessário */
